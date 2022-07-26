@@ -28,10 +28,10 @@ export default function table() {
             <tr className="bg-gray-50 text-center">
                 <td className="px-16 py-2 flex flex-row items-center">
                     <img src="#" alt="" />
-                    <span className="text-center ml-2 font-semibold">Daily Tuition</span>
+                    <span className="text-center ml-2 font-semibold">Marcus Fenix</span>
                 </td>
                 <td class="px-16 py-2">
-                    <span>dailytuition@gmail.com</span>
+                    <span>marcus.fenix@gmail.com</span>
                 </td>
                 <td class="px-16 py-2">
                     <span>$85,000</span>
