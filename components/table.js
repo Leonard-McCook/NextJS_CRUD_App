@@ -37,7 +37,7 @@ export default function table() {
                     <span>$85,000</span>
                 </td>
                 <td class="px-16 py-2">
-                    <span>07-15-2022</span>
+                    <span>21 B.E.</span>
                 </td>
                 <td class="px-16 py-2">
                     <button className="cursor"><span className="bg-green-500 text-white px-5 py-1 rounded-full">Active</span></button>
