@@ -30,19 +30,19 @@ export default function table() {
                     <img src="#" alt="" />
                     <span className="text-center ml-2 font-semibold">Marcus Fenix</span>
                 </td>
-                <td class="px-16 py-2">
+                <td className="px-16 py-2">
                     <span>marcus.fenix@gmail.com</span>
                 </td>
-                <td class="px-16 py-2">
+                <td className="px-16 py-2">
                     <span>$85,000</span>
                 </td>
-                <td class="px-16 py-2">
+                <td className="px-16 py-2">
                     <span>21 B.E.</span>
                 </td>
-                <td class="px-16 py-2">
+                <td className="px-16 py-2">
                     <button className="cursor"><span className="bg-green-500 text-white px-5 py-1 rounded-full">Active</span></button>
                 </td>
-                <td class="px-16 py-2 flex justify-around gap-5 mt-2">
+                <td className="px-16 py-2 flex justify-around gap-5 mt-2">
                     <button className="cursor"><BiEdit size={25} color={"rgb(34,197,94)"}></BiEdit></button>
                     <button className="cursor"><BiTrashAlt size={25} color={"rgb(244,63,94)"}></BiTrashAlt></button>
                 </td>
