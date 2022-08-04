@@ -13,6 +13,21 @@ export async function getUsers (req, res) {
     }
 }
 
+// get: https//localhost:3000/api/users/1
+export async function getUser(req, res) {
+    try {
+        const { userId } = req.query;
+
+        if(userId) {
+            const user = await Users.findById(userId);
+            res.status(200).json(user)
+        }
+        res.status(404).json({ error: "User Not Found"});
+    } catch (error) {
+       res.status(404).json({ error: "Cannot Find User" });
+    }
+}
+
 // post: https//localhost:3000/api/users
 export async function postUser (req, res) {
     try {
