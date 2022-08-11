@@ -5,19 +5,10 @@ import Error from './error';
 import { useQueryClient, useMutation } from 'react-query';
 import { addUser, getUsers } from '../lib/helper';
 
-const formReducer = (state, event) => {
-    return {
-        ...state,
-        [event.target.name]:event.target.value
 
-    }
-
-}
-
-export default function AddUserForm() {
+export default function AddUserForm({ formData, setFormData }) {
 
     const queryClient = useQueryClient()
-    const [formData, setFormData] = useReducer(formReducer,{})
     const addMutation = useMutation(addUser, {
         onSuccess: () => {
            queryClient.prefetchQuery('users', getUsers)
