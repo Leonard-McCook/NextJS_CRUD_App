@@ -53,7 +53,7 @@ function Tr({_id, name, avatar, email, salary, date, status}){
 
 
     const onUpdate = () => {
-        dispatch(toggleChangeAction())
+        dispatch(toggleChangeAction(_id))
         if(visible) {
             dispatch(updateAction(_id))
         }
