@@ -31,7 +31,6 @@ export default function UpdateUserForm({ formId, formData, setFormData }) {
 
     }
 
-
   return (
     <form className="grid lg:grid-cols-2 w-4/6 gap-4" onSubmit={handleSubmit}>
         <div className="input-type">
